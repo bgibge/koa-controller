@@ -4,12 +4,8 @@
   "description": "基于Koa的控制器定义组件",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint .",
+    "lint": "eslint .",
     "test": "npm run lint"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@112.74.84.77:base/koa-controller.git"
   },
   "keywords": [
     "koa",
@@ -24,5 +20,16 @@
   },
   "dependencies": {
     "koa-compose": "^2.5.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bgibge:j9jpYrzcxKRPu1zy@github.com/bgibge/koa-controller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bgibge/koa-controller/issues"
+  },
+  "homepage": "https://github.com/bgibge/koa-controller#readme"
 }
