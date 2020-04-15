@@ -1,33 +1,26 @@
 {
   "name": "koa-controller",
   "version": "1.0.1",
-  "description": "基于Koa的控制器定义组件",
+  "description": "基于 Koa v1 的控制器定义组件",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint"
-  },
-  "keywords": [
-    "koa",
-    "controller",
-    "控制器",
-    "中间件"
-  ],
-  "author": "xiaorujun@genomics.cn",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^3.19.0"
-  },
-  "dependencies": {
-    "koa-compose": "^2.5.1"
-  },
-  "directories": {
-    "lib": "lib"
   },
   "repository": {
     "type": "git",
     "url": "git+https://bgibge:j9jpYrzcxKRPu1zy@github.com/bgibge/koa-controller.git"
   },
+  "keywords": [
+    "koa",
+    "controller",
+    "控制器"
+  ],
+  "author": "xiaorujun@genomics.cn",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/bgibge/koa-controller/issues"
   },
