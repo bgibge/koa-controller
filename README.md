@@ -6,7 +6,7 @@ koa-controller
 ### 安装
 
 ```shell
-
+npm install https://github.com/bgibge/koa-controller.git\#v1
 ```
 
 ### 测试
